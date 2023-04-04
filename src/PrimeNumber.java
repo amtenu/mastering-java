@@ -12,7 +12,8 @@ public class PrimeNumber {
         if (number < 2) {
             return false;
         }
-        for (int i = 2; i < number; i++) {
+//        for (int i = 2; i < number; i++) { //since this is 0(n)
+        for(double i=2;i<Math.sqrt(number);i++){//0(sqrt(n))
             if (number % i == 0) {
                 return false;
             }
