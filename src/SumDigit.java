@@ -1,11 +1,11 @@
 //Method to add all digits of a number
-//Mod to takeout each digit
+//Mod to take out each digit
 //Divide each remaining digits by 10
 
 
 public class SumDigit {
     public static void main(String[] args) {
-        System.out.println(addDigits(1));
+        System.out.println(addDigits(-200));
     }
 
     public static int addDigits(int number){
